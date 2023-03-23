@@ -1,5 +1,4 @@
 package java101;
-/*Java döngüler ile girilen sayıya kadar olan 4 ve 5'in kuvvetlerini ekrana yazdıran programı yazıyoruz.*/
 import java.util.Scanner;
 
 public class _4_5_Kuvvetleri {
