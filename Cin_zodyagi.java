@@ -2,7 +2,7 @@ package java101;
 
 import java.util.Scanner;
 
-/*Çin zodyağı hesaplanırken kişinin doğum yılının 12 ile bölümünde kalana göre bulunur.
+/*
 Doğum Tarihi %12 = 0 ➜ Maymun
 Doğum Tarihi %12 = 1 ➜ Horoz
 Doğum Tarihi %12 = 2 ➜ Köpek
