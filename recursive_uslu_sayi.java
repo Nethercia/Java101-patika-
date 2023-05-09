@@ -3,6 +3,14 @@ package java101;
 import java.util.Scanner;
 
 public class recursive_uslu_sayi {
+    public static int power(int base, int exponent) {
+        if (exponent == 0) {
+            return 1;
+        } else {
+            return base * power(base, exponent - 1);
+        }
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -15,13 +23,5 @@ public class recursive_uslu_sayi {
         int result = power(base, exponent);
 
         System.out.println(base + "^" + exponent + " = " + result);
-    }
-
-    public static int power(int base, int exponent) {
-        if (exponent == 0) {
-            return 1;
-        } else {
-            return base * power(base, exponent - 1);
-        }
     }
 }
