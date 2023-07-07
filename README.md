@@ -1,2 +1,2 @@
 # Java101
-java
+java patika.dev
